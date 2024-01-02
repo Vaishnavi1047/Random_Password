@@ -1,0 +1,38 @@
+body {
+  background-color: #002339;
+  color: #019f55;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#password-container {
+  text-align: center;
+  font-size: 50px;
+}
+
+#password-input {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  border: 2px solid white; /* Border color similar to background */
+  border-radius: 5px;
+}
+
+#generate-button {
+  background-color: #2ecc71; /* Green button */
+  color:#002339; /* White text */
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+#logo-image {
+    max-width: 100%;
+    margin-top: 20px;
+}
